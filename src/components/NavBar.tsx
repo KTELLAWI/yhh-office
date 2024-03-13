@@ -109,8 +109,7 @@ export default function NavBar() {
               </Link>
               
               <Link
-              //@ts-ignore
-                href="/service2"
+                href="/service"
                 locale={lang}
                 className="-mx-3 block rounded-lg px-3 py-2 text-[1.1rem] leading-7 text-white hover:text-[#9bdaf2]"
               >
@@ -118,8 +117,7 @@ export default function NavBar() {
               </Link>
               
               <Link
-                   //@ts-ignore
-                href="/service3"
+                href="/service"
                 locale={lang}
                 className="-mx-3 block rounded-lg px-3 py-2 text-[1.1rem] leading-7 text-white hover:text-[#9bdaf2]"
               >
