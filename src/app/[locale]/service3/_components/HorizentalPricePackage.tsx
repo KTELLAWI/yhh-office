@@ -140,6 +140,7 @@ function HorizentalPricePackage({ packageData }: { packageData?: Package[]; }) {
                                         <ul className="space-y-2 pt-8">
 
                                             {packages[0].features.map((feature, index) => (
+                                                
                                                 <FeatureList key={index} feature={feature} />
                                             )
                                             )}
