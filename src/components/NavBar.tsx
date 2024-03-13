@@ -107,14 +107,18 @@ export default function NavBar() {
               >
                 {t("services")}
               </Link>
+              
               <Link
+              //@ts-ignore
                 href="/service2"
                 locale={lang}
                 className="-mx-3 block rounded-lg px-3 py-2 text-[1.1rem] leading-7 text-white hover:text-[#9bdaf2]"
               >
                 {("services2")}
               </Link>
+              
               <Link
+                   //@ts-ignore
                 href="/service3"
                 locale={lang}
                 className="-mx-3 block rounded-lg px-3 py-2 text-[1.1rem] leading-7 text-white hover:text-[#9bdaf2]"
