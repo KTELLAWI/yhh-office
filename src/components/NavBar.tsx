@@ -107,22 +107,14 @@ export default function NavBar() {
               >
                 {t("services")}
               </Link>
-              
               <Link
-                href="/services"
+                href="/newlayout"
                 locale={lang}
                 className="-mx-3 block rounded-lg px-3 py-2 text-[1.1rem] leading-7 text-white hover:text-[#9bdaf2]"
               >
-                {("services2")}
+                {t("newlayout")}
               </Link>
-              
-              <Link
-                href="/services"
-                locale={lang}
-                className="-mx-3 block rounded-lg px-3 py-2 text-[1.1rem] leading-7 text-white hover:text-[#9bdaf2]"
-              >
-                {("services3")}
-              </Link>
+             
               {/* <Link href="/privacy-policy" locale={lang} className="-mx-3 block rounded-lg px-3 py-2 text-[1.1rem] leading-7 text-white hover:text-[#9bdaf2]" >
                 {t("privacy-policy")}
               </Link> */}

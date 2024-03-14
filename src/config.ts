@@ -11,7 +11,8 @@ export const pathnames = {
   '/blog': "/blog",
   '/blog/[id]': "/blog/[id]",
   '/privacy-policy': "/privacy-policy",
-  '/contact': "/contact"
+  '/contact': "/contact",
+  '/newlayout': "/newlayout"
 } satisfies Pathnames<typeof locales>;
 
 // Use the default: `always`

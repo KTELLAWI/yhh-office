@@ -15,95 +15,6 @@ import { Faqs } from "./_components/faqs";
 import { ServicesButton } from "./_components/button";
 
 import sheraImg from "../../../../public/sheraa.png";
-import HorizentalPricePackage from "./_components/HorizentalPricePackage";
-
-const packages = [
-  {
-    name: "Bronze Package",
-    id: "bronze",
-    href: "#",
-    price: " 7000",
-    slogan: "AED 350/month starting from the second year",
-    description: "Your Gateway to the Digital World",
-    detailsOfCost: "AED 350/month starting from the second year",
-    features: [
-      ".ae Domain Hosting",
-      "Email Setup",
-      "Website Hosting",
-      "Professionally Designed Pages",
-      "Hero Page",
-      "Product Page",
-      "About Page",
-      "Contact Us Page",
-      "Template Selection",
-      "Efficient Turnaround Time"
-    ],
-  },
-  {
-    name: "Silver Package",
-    id: "silver",
-    href: "#",
-    price: " 9000",
-    slogan: "Elevate Your Online Presence",
-    detailsOfCost: "AED 450/month starting from the second year",
-    description: "Elevate Your Online Presence",
-    popoular:true,
-    features: [
-      "All of the mentioned in the Bronze Package",
-      "Pro Templates Access",
-      "Enhanced Contact Us Page",
-      "Efficient Turnaround Time"
-    ],
-  },
-  {
-    name: "Gold Package",
-    id: "gold",
-    href: "#",
-    price: "12000",
-    slogan: "Maximizing Your Global Reach",
-    detailsOfCost: "AED 600/month starting from the second year",
-    description: "Maximizing Your Global Reach",
-    features: [
-      "All of the mentioned in the Silver Package",
-      "Up to 5 email users",
-      "Content Management System Support for 4 Pages",
-      "Secondary Language Option",
-      "Efficient Turnaround Time"
-    ],
-  },
-  {
-    name: "Platinum Package",
-    id: "platinum",
-    href: "#",
-    price: "16000",
-    slogan: "The Pinnacle of Web Excellence",
-    detailsOfCost: "AED 800/month starting from the second year",
-    description: "The Pinnacle of Web Excellence",
-    features: [
-      "All of the mentioned in the Gold Package",
-      "Up to 8 email users",
-      "Extended CMS Support",
-      "Multilingual Capability",
-      "Integration of Meeting Management Tools",
-      "Prioritized turnaround time"
-    ],
-  },
-  {
-    name: "Diamond Package",
-    id: "diamond",
-    href: "#",
-    price: "23000",
-    slogan: "Seamless Transactions Suite",
-    detailsOfCost: "AED 1000/month starting from the second year",
-    description: "Seamless Transactions Suite",
-    features: [
-      "All of the mentioned in the Platinum Package",
-      "Simplified Payment Gateway",
-      "Prioritized turnaround time"
-    ],
-  },
-];
-
 
 export default function ServicesPage() {
   const [activeTab, setActiveTab] = useState("website-creation");
@@ -170,12 +81,6 @@ export default function ServicesPage() {
                 </p>
 
                 <div className=" mb-16 flex flex-col md:flex-wrap md:justify-center items-center [&>div]:mb-8 md:items-stretch md:flex-row md:space-x-4">
-                  {/* {
-                    packages.map((packageItem) => (
-                      <HorizentalPricePackage key={packageItem.id} packageData={packageItem} />
-                    ))
-                  } */}
-
                   <Package>
                     <Package.Title variant="Bronze">
                       Bronze Package
