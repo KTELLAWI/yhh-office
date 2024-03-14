@@ -101,7 +101,7 @@ function WebsitesService({ packages }: { packages: Package[] }) {
             <div className="flex flex-col lg:flex-row lg:flex-nowrap  justify-center animate__animated animate__slow animate__fadeInUp p-8">
                 {
                     packages?.map((item, index) => (
-                        <div className='mr-5 col-span-1 mb-4  lg:w-1/3'>
+                        <div className='mr-5 col-span-1 mb-4  lg:w-1/3' key={item.index}>
                         <PackageColumn
                             key={item.id}
                             packageDetails={item}
