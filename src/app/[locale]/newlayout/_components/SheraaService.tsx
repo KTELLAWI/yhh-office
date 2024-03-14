@@ -63,7 +63,7 @@ function SheraaService() {
                 <div className='flex flex-col lg:flex-row lg:flex-1 space-x-2 justify-start p-4'>
                     {
                         packages.map((item, index) => (
-                            <div className=' col-span-1 mb-4  lg:w-1/2'>
+                            <div className=' col-span-1 mb-4  lg:w-1/2'  key={item.index}>
                                 <PackageColumn
                                     packageDetails={item}
                                     key={item.id}
